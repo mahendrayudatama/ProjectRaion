@@ -57,6 +57,8 @@
      <Compile Include="Assets\lvlGenerator.cs" />
      <Compile Include="Assets\Script\cameraMovement.cs" />
      <Compile Include="Assets\Script\cameraZoom.cs" />
+     <Compile Include="Assets\Script\gameOver.cs" />
+     <Compile Include="Assets\Script\health.cs" />
      <Compile Include="Assets\Script\MapLoop.cs" />
      <Compile Include="Assets\Script\menuControl.cs" />
      <Compile Include="Assets\Script\playerMovement.cs" />

@@ -7,8 +7,10 @@ public class scoring : MonoBehaviour
 {
     public bool jalan;
     public Text scoreText;
+    public Text finalText;
     public float jumlah;
     public float penambahan;
+    public GameObject gameover;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,9 @@ public class scoring : MonoBehaviour
             int i = (int) jumlah;
             scoreText.text = (i+"").PadLeft(4,'0');
             jumlah += penambahan*Time.deltaTime;
+        }
+        if(gameover.activeSelf){
+            finalText.text = scoreText.text;
         }
     }
     public void score(){

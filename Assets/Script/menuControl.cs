@@ -16,8 +16,8 @@ public class menuControl : MonoBehaviour
     }
 
     public void backToMenu(){
-        SceneManager.LoadScene("pre progress");
         Time.timeScale = 1;
+        SceneManager.LoadScene("pre progress");
     }
 
     void Start(){
